@@ -2,9 +2,7 @@
 Smart Study Tracker is a real-time IoT-based productivity monitoring system that tracks user activity using Python and transmits data via MQTT to a Node.js backend. The system visualizes live focus status on a web dashboard, demonstrating real-time communication, event-driven architecture, and full-stack integration.
 # Smart Study Tracker
 
-![GitHub Actions](https://img.shields.io/github/actions/workflow/status/yourusername/smart-study-tracker/main.yml)
-![License](https://img.shields.io/github/license/yourusername/smart-study-tracker)
-![Version](https://img.shields.io/github/v/release/yourusername/smart-study-tracker)
+
 
 ---
 
