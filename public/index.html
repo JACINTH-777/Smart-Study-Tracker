@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Study Tracker</title>
+  <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+
+<h1>Smart Study Tracker</h1>
+<h2 id="status">Waiting...</h2>
+
+<script>
+const socket = io();
+
+socket.on("update", (data) => {
+  document.getElementById("status").innerText =
+    "Status: " + data.status;
+});
+</script>
+
+</body>
+</html>
